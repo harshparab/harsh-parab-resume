@@ -5,28 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Harsh Parab Resume</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header id="header">
-        <h1>Harsh Parab</h1>
-        <h3>Backend Developer</h3>
+<body class="bg-[#49475B] text-[#F3EFE0] leading-relaxed w-[600px] my-2 mx-auto">
+    <header id="header" class="text-center">
+        <h1 class="text-4xl font-semibold">Harsh Parab</h1>
+        <h3 class="text-xl font-medium">Backend Developer</h3>
         <address>
             <p>
                 Mumbai, 400022, IN
             </p>
         </address>
-        <div class="flex-heading-container">
-            <p>Contact Number: <a href="tel:+919137777647">+91-9137777647</a></p>
-            <p>Email: <a href="mailto:harsh_parab@outlook.com">harsh_parab@outlook.com</a></p>
+        <div class="flex justify-around">
+            <p>Contact Number: <a href="tel:+919137777647" class="italic">+91-9137777647</a></p>
+            <p>Email: <a href="mailto:harsh_parab@outlook.com" class="italic">harsh_parab@outlook.com</a></p>
         </div>
 
     </header>
-    <main id="main">
+    <main id="main" class="pt-8">
         <section id="objective">
-            <h2>Objective</h2>
-            <p>I'm a Backend Developer well-versed in Node.js and JavaScript. My expertise includes MongoDB and SQL
+            <h2 class="text-2xl font-bold border-b">Objective</h2>
+            <p class="pt-3">I'm a Backend Developer well-versed in Node.js and JavaScript. My expertise includes MongoDB
+                and SQL
                 databases,
                 along with Elastic Search and Redis technologies. I'm also experienced in Linux environments and have a
                 solid
@@ -34,12 +35,12 @@
             </p>
         </section>
         <section id="experience">
-            <h2>Experience</h2>
-            <div class="flex-container">
-                <h4>Jio Platforms Limited</h4>
-                <p class="italic-font">March, 2023 - Present</p>
+            <h2 class="text-2xl font-bold border-b pt-5">Experience</h2>
+            <div class="flex justify-between pt-3">
+                <h4 class="text-xl font-semibold">Jio Platforms Limited</h4>
+                <p class="italic">March, 2023 - Present</p>
             </div>
-            <ul class="experience-list">
+            <ul class="pt-3 list-disc pl-4">
                 <li>Coded server side of websites using JavaScript and NodeJS</li>
                 <li>Creating new APIs or modifying existing APIs to meet company's requirements</li>
                 <li>Creating swagger files for documenting and managing APIs.</li>
@@ -48,40 +49,41 @@
                 <li>Understanding microservices architecture and understand working of Kubernetes platform, SonarQube
                     platform
                     and Elastic Observability platform.</li>
-                <li>Currently mentoring new joiners with their coding related issues.</li>
+                <li>Mentoring new joinees with their coding related issues.</li>
             </ul>
         </section>
         <section id="education">
-            <h2>Education</h2>
-            <h4>Ramrao Adik Institute of Technology</h4>
-            <div class="flex-container">
+            <h2 class="text-2xl font-bold border-b pt-5">Education</h2>
+            <h4 class="pt-3 text-xl font-semibold">Ramrao Adik Institute of Technology</h4>
+            <div class="flex justify-between">
                 <p>Bachelor in Engineering specialised in Instrumentation</p>
-                <p class="italic-font">July - 2021</p>
+                <p class="italic">July - 2021</p>
             </div>
         </section>
         <section id="certificate">
-            <h2>Certificate</h2>
-            <div class="flex-container">
-                <h4>Server Side Rendering using NodeJS, Express and MongoDB</h4>
-                <p>April - 2023</p>
+            <h2 class="text-2xl font-bold border-b pt-5">Certificate</h2>
+            <div class="flex justify-between pt-3">
+                <h5 class="text-normal font-semibold">Server Side Rendering using NodeJS, Express and MongoDB</h5>
+                <p class="italic">April - 2023</p>
             </div>
 
         </section>
         <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>NodeJS</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>MySQL</li>
+            <h2 class="text-2xl font-bold border-b pt-5">Skills</h2>
+            <ul class="pt-3 text-center">
+                <li class="inline border border-dotted p-1">HTML5</li>
+                <li class="inline border border-dotted p-1">CSS3</li>
+                <li class="inline border border-dotted p-1">JavaScript</li>
+                <li class="inline border border-dotted p-1">NodeJS</li>
+                <li class="inline border border-dotted p-1">ExpressJS</li>
+                <li class="inline border border-dotted p-1">MongoDB</li>
+                <li class="inline border border-dotted p-1">MySQL</li>
             </ul>
         </section>
     </main>
-    <footer id="footer">
-        <p><a href="#header" class="italic-font">Go to the TailwindCSS Implementation Resume</a></p>
+    <footer id="footer" class="py-5">
+        <p class="text-center italic"><a href="/nativeCSS/indexNativeCSS.html">Go to Normal CSS3 Implementation
+                Resume</a></p>
     </footer>
 </body>
 
